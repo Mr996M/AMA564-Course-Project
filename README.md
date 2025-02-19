@@ -1,3 +1,2 @@
-# AMA-564-Course-Project
+# AMA564 Course Project
 Deep Learning
-## A Course Project

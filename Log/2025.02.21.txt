@@ -1,3 +1,10 @@
 Discussion and Ideas
 
 For application about financial fields.
+References:
+(website prefix: https://doi.org/)
+[1] Forecasting Financial Markets using Deep Learning. 2019. DOI: 10.1109/iccp48234.2019.8959715
+[2] Deep Reinforcement Learning in Agent Based Financial Market Simulation. 2020. DOI: 10.3390/jrfm13040071
+[3] *Deep Direct Reinforcement Learning for Financial Signal Representation and Trading. 2017. DOI: 10.1109/TNNLS.2016.2522401
+[4] Financial Markets Prediction with Deep Learning. 2018. DOI: 10.1109/ICMLA.2018.00022
+[5] Blockchain financial investment based on deep learning network algorithm. 2020. DOI: 10.1016/j.cam.2020.112723

@@ -3,8 +3,9 @@ Discussion and Ideas
 For application about financial fields.
 References:
 (website prefix: https://doi.org/)
-[1] Forecasting Financial Markets using Deep Learning. 2019. DOI: 10.1109/iccp48234.2019.8959715
-[2] Deep Reinforcement Learning in Agent Based Financial Market Simulation. 2020. DOI: 10.3390/jrfm13040071
-[3] *Deep Direct Reinforcement Learning for Financial Signal Representation and Trading. 2017. DOI: 10.1109/TNNLS.2016.2522401
-[4] Financial Markets Prediction with Deep Learning. 2018. DOI: 10.1109/ICMLA.2018.00022
-[5] Blockchain financial investment based on deep learning network algorithm. 2020. DOI: 10.1016/j.cam.2020.112723
+[1]Meshless methods for American option pricing through Physics-Informed Neural Networks
+DOI10.1016/j.enganabound.2023.02.040
+
+
+hints(only for self-understanding):
+1.高维的含义：在普通欧式期权(2D)中，只有股票价格和时间两个维度，亚式期权（3D）多了一个路径依赖变量A的维度，随即波动率模型如Heston模型也是3D多了一个随机波动率变量vt。至于多标的资产菜篮子期权，其维度为N+1（N个标的资产+时间t）

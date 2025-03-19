@@ -1,9 +1,32 @@
 Discussion and Ideas
 
 For application about financial fields.
-References:
+Most important References:
 (website prefix: https://doi.org/)
-[1] Meshless methods for American option pricing through Physics-Informed Neural Networks. DOI: 10.1016/j.enganabound.2023.02.040
+[1] Meshless methods for American option pricing through Physics-Informed Neural Networks. 
+DOI: 10.1016/j.enganabound.2023.02.040
+this article is most useful I think, we can mostly follow its track and do some improvement.
+[2]A Deep Learning Based Numerical PDE Method for Option Pricing
+https://doi.org/10.1007/s10614-022-10279-x
+this article is also a good reference that we can follow
+[3]The application of improved physics-informed neural network (IPINN) method in finance
+https://doi.org/10.1007/s11071-021-07146-z
+[4]Barrier Option Pricing and Volatility Surface Predicting with an Extended Physics-Informed Neural Network
+[5]Option pricing in the Heston model with physics inspired neural networks
+https://doi.org/10.1007/s10436-024-00452-7
+[6]European option pricing underlying two assets using PINN
+https://doi.org/10.22054/jmmf.2024.79962.1135
+
+
+Some general references:
+[1]Adapting PINN Models of Physical Entities to Dynamical Data 
+https://doi.org/10.3390/computation11090168
+[2]Option Pricing and Local Volatility Surface by Physics-Informed Neural Network
+https://link.springer.com/article/10.1007/s10614-024-10551-2
+[3]PINN-wf: A PINN-based algorithm for data-driven solution and parameter discovery of the Hirota equation appearing in communications and finance
+https://doi.org/10.1016/j.chaos.2024.115669
+[4]
 
 hints(only for self-understanding):
-1.高维的含义：在普通欧式期权(2D)中，只有股票价格和时间两个维度，亚式期权（3D）多了一个路径依赖变量A的维度，随即波动率模型如Heston模型也是3D多了一个随机波动率变量vt。至于多标的资产菜篮子期权，其维度为N+1（N个标的资产+时间t）
+1.高维的含义：在普通欧式期权(2D)中，只有股票价格和时间两个维度，亚式期权（3D）多了一个路径依赖变量A的维度，随即波动率模型如Heston模型也是3D多了一个随机波动率变量vt。
+至于多标的资产菜篮子期权，其维度为N+1（N个标的资产+时间t）

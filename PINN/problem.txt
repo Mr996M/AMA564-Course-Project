@@ -1,0 +1,49 @@
+# GDAL==2.2.2
+# httpstan==4.6.1  -  pystan==3.3.0
+# jaxlib==0.3.15
+# kapre==0.3.7
+# pandas-profiling==1.4.1
+# pygobject==3.26.1
+# rpy2==3.4.5
+screen-resolution-extra==0.0.0 ??????????????????????
+# tensorflow==2.8.2+zzzcolab20220719082949
+xkit==0.0.0 ???????????????????????
+
+ERROR: Failed to build installable wheels for some pyproject.toml based projects
+(
+# dlib,
+# editdistance,
+# fa2,
+# lmdb,
+# Pillow,
+# psutil,
+# pycocotools,
+# pyemd,
+# pysndfile,
+python-apt)
+
+# already solved
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+anyio 4.9.0 requires typing_extensions>=4.5; python_version < "3.13", but you have typing-extensions 4.1.1 which is incompatible.
+jupyter-events 0.12.0 requires jsonschema[format-nongpl]>=4.18.0, but you have jsonschema 4.3.3 which is incompatible.
+jupyter-events 0.12.0 requires traitlets>=5.3, but you have traitlets 5.1.1 which is incompatible.
+jupyter-server 2.15.0 requires jinja2>=3.0.3, but you have jinja2 2.11.3 which is incompatible.
+jupyter-server 2.15.0 requires jupyter-client>=7.4.4, but you have jupyter-client 6.1.12 which is incompatible.
+jupyter-server 2.15.0 requires jupyter-core!=5.0.*,>=4.12, but you have jupyter-core 4.11.1 which is incompatible.
+jupyter-server 2.15.0 requires nbconvert>=6.4.4, but you have nbconvert 5.6.1 which is incompatible.
+jupyter-server 2.15.0 requires packaging>=22.0, but you have packaging 21.3 which is incompatible.
+jupyter-server 2.15.0 requires pyzmq>=24, but you have pyzmq 23.2.1 which is incompatible.
+jupyter-server 2.15.0 requires send2trash>=1.8.2, but you have send2trash 1.8.0 which is incompatible.
+jupyter-server 2.15.0 requires tornado>=6.2.0, but you have tornado 6.0.3 which is incompatible.
+jupyter-server 2.15.0 requires traitlets>=5.6.0, but you have traitlets 5.1.1 which is incompatible.
+jupyterlab 4.3.6 requires ipykernel>=6.5.0, but you have ipykernel 5.3.4 which is incompatible.
+jupyterlab 4.3.6 requires jinja2>=3.0.3, but you have jinja2 2.11.3 which is incompatible.
+jupyterlab 4.3.6 requires tornado>=6.2.0, but you have tornado 6.0.3 which is incompatible.
+jupyterlab-server 2.27.3 requires jinja2>=3.0.3, but you have jinja2 2.11.3 which is incompatible.
+jupyterlab-server 2.27.3 requires jsonschema>=4.18.0, but you have jsonschema 4.3.3 which is incompatible.
+jupyterlab-server 2.27.3 requires requests>=2.31, but you have requests 2.23.0 which is incompatible.
+nbclient 0.10.2 requires jupyter-core!=5.0.*,>=4.12, but you have jupyter-core 4.11.1 which is incompatible.
+nbclient 0.10.2 requires traitlets>=5.4, but you have traitlets 5.1.1 which is incompatible.
+pyopenssl 25.0.0 requires typing-extensions>=4.9; python_version < "3.13" and python_version >= "3.8", but you have typing-extensions 4.1.1 which is incompatible.
+referencing 0.36.2 requires attrs>=22.2.0, but you have attrs 22.1.0 which is incompatible.
+referencing 0.36.2 requires typing-extensions>=4.4.0; python_version < "3.13", but you have typing-extensions 4.1.1 which is incompatible.

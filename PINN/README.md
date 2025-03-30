@@ -20,3 +20,4 @@ The original 'requirements.txt' cannot support the IDE of the whole code. You co
 `
 conda create --name PINN --file requirements.txt
 `
+- This IDE update was done by two students of the AMA564 course

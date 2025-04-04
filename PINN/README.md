@@ -20,9 +20,12 @@ The original 'requirements.txt' cannot support the IDE of the whole code. We cha
 `
 conda create -n PINN python=3.9
 `
+`
 conda install --file conda_forge_requirements.txt -c conda-forge
 `
+`
 conda install --file other_requirements.txt
+`
 `
 pip install -r pip_requirements.txt
 `

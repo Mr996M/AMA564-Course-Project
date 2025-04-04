@@ -15,9 +15,11 @@ pip install -r requirements.txt
 `
 
 ### New environment version
-The original 'requirements.txt' cannot support the IDE of the whole code. You could download the environment by running the following command:
+The original 'requirements.txt' cannot support the IDE of the whole code. We changed the versions of several packages and exported all of the needed packages to conda_forge_requirement.txt, pip_requirements.txt and other_requirements.txt. You could download the environment by running the following commands by order:
 
 `
-conda create --name PINN --file requirements.txt
+conda create -n PINN python=3.9
+conda install --file conda_forge_requirements.txt -c conda-forge
+conda install --file other_requirements.txt
+pip install -r pip_requirements.txt
 `
-- This IDE update was done by two students of the AMA564 course

@@ -26,9 +26,9 @@ conda install --file conda_forge_requirements.txt -c conda-forge
 `
 \
 `
-conda install --file other_requirements.txt
+pip install -r pip_requirements.txt
 `
 \
 `
-pip install -r pip_requirements.txt
+conda install --file other_requirements.txt
 `

@@ -32,3 +32,9 @@ pip install -r pip_requirements.txt
 `
 conda install --file other_requirements.txt
 `
+
+Since some functions require a specific tensorflow framework version, you will need to update tensorflow with the following command:
+
+`
+pip install tensorflow==2.8.0
+`

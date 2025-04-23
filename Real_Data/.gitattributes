@@ -1,1 +1,0 @@
-S&P500(2015-2019)_with_hedging_profits.csv filter=lfs diff=lfs merge=lfs -text

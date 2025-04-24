@@ -15,7 +15,7 @@ pip install -r requirements.txt
 `
 
 ### New environment version
-The original 'requirements.txt' cannot support the IDE of the whole code. We changed the versions of several packages and exported all of the needed packages to conda_forge_requirement.txt, pip_requirements.txt and other_requirements.txt. You could download the environment by running the following commands by order:
+The original 'requirements.txt' cannot support the IDE of the whole code. We changed the versions of several packages and exported all of the needed packages to conda_forge_requirement.txt, pip_requirements.txt and other_requirements.txt in the `Requirements` folder. You could download the environment by running the following commands by order:
 
 `
 conda create -n PINN python=3.9
@@ -38,3 +38,8 @@ Since some functions require a specific tensorflow framework version, you will n
 `
 pip install tensorflow==2.8.0
 `
+
+---
+
+### Network
+The figures in the `Network` folder illustrate the network structures utilized by the PINNs model, including solution network and free boundary network.

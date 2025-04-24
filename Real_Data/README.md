@@ -6,7 +6,7 @@ strike_price / 1000 = K;  <br>
 ttm is time _t_, option_price is _ground truth P_.  <br>
 \
 In the `美国标准普尔500指数历史数据.xlsx` file:  <br>
-Feature "收盘" is considered as the underlying asset price.  <br>
+Feature "收盘" is considered as the "underlying asset price".  <br>
 (Correspond the extracted data according to the date)  <br>
 \
 Due to the fact that it is difficult to find dataset that meet the requirements in the market, this project only conducted tests on 1-dimensional real data.

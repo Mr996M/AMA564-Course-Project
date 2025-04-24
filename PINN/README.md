@@ -46,3 +46,6 @@ The figures in the `Network` folder illustrate the network structures utilized b
 
 ### losses_tables&figures
 We set the variable "random_seed" to 10 prime numbers to run the code for the 1D to 4D sections of the "PINN_4_AmericanOptions.ipynb" file and saved the generated loss values of related boundary conditions and the corresponding loss figures to the subdirectories 1D ~ 4D in the `losses_tables&figures` folder.
+
+### mean&median_losses
+By running codes in the "Mean&Median_losses.ipynb" file, we obtained the comparison charts of the mean and median of the loss values of each boundary condition. For boundary conditions with tiny loss values, we set a threshold to enlarge the bar charts. More details could be seen at the README.md file in the `mean&median_losses` folder.

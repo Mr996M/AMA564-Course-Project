@@ -14,7 +14,7 @@ We recorded our initial ideas and searched for some articles to conduct a brief 
 We replicated the content in the article "Gatta, F. Di Cola, V. S. Giampaolo, F. Piccialli, F.& Cuomo, S. (2023) Meshless methods for American option pricing through physics-informed neural networks. Engineering Analysis with Boundary Elements 151 68-82." by running the code under the `PINN` folder. For more details, you could refer to the "README.md" file in that folder.
 
 ### sample_data
-In order to find the features used by each boundary condition clearly, we derived the corresponding sampled data and clarified the data related to each feature. 
+In order to find the features used by each boundary condition clearly, we derived the corresponding sampled data and clarified the data related to each feature. You could run code in XD.ipynb file in the subdirectories 1D ~ 4D in the 'sample_data' folder to obtain sampling data.
 
 ### sigma
 In order to test the performance of the PINNs model under high volatility conditions, we set the following σ values:
@@ -22,3 +22,6 @@ In order to test the performance of the PINNs model under high volatility condit
 The loss values of model training under these σ values or σ matrices as well as the corresponding loss oscillation figures of boundary conditions are all stored in the `sigma` folder.  <br>
 You could use number or matrix content in the "matrix.txt file" within the `sigma` folder to modify the global variable "sigma" in the Jupyter Notebook file at the correspond sections 1D ~ 4D for testing under high volatility conditions.  <br>
 <img width="568" alt="联想截图_20250424203542" src="https://github.com/user-attachments/assets/480f5be3-3f80-4a3e-8aed-29460c222f9c" />
+
+### Real_Data
+Our project incorporated real market data and conducted tests on it. For detailed information, you could refer to the "README.md" file in `Real_Data` folder.

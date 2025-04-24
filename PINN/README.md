@@ -43,3 +43,6 @@ pip install tensorflow==2.8.0
 
 ### Network
 The figures in the `Network` folder illustrate the network structures utilized by the PINNs model, where solution network employs n-dimensional underlying asset price _S_ and time _t_ to obtain forecast option price _P(S, t)_ while free boundary network uses time _t_ to get n-dimensional "sufficiently low price" _B(t)_.
+
+### losses_tables&figures
+We set the variable "random_seed" to 10 prime numbers to run the code for the 1D to 4D sections of the "PINN_4_AmericanOptions.ipynb" file and saved the generated loss values of related boundary conditions and the corresponding loss figures to the subdirectories 1D ~ 4D in the `losses_tables&figures` folder.

@@ -42,4 +42,4 @@ pip install tensorflow==2.8.0
 ---
 
 ### Network
-The figures in the `Network` folder illustrate the network structures utilized by the PINNs model, where solution network employs n-dimensional underlying asset price _S_ and time _t_ to obtain forecast option price _P_ while free boundary network uses time _t_ to get n-dimensional "sufficiently low price" _B_.
+The figures in the `Network` folder illustrate the network structures utilized by the PINNs model, where solution network employs n-dimensional underlying asset price _S_ and time _t_ to obtain forecast option price _P(S, t)_ while free boundary network uses time _t_ to get n-dimensional "sufficiently low price" _B(t)_.

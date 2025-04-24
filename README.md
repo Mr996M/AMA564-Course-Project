@@ -11,4 +11,4 @@ This is a repository recording codes and contents about the course project set b
 We recorded our initial ideas and searched for some articles to conduct a brief discussion on the financial fields with deep learning topic and wrote down details file in the `Log` folder.
 
 ### sigma
-&sigma
+σ

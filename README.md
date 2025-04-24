@@ -13,6 +13,9 @@ We recorded our initial ideas and searched for some articles to conduct a brief 
 ### PINN
 We replicated the content in the article "Gatta, F. Di Cola, V. S. Giampaolo, F. Piccialli, F.& Cuomo, S. (2023) Meshless methods for American option pricing through physics-informed neural networks. Engineering Analysis with Boundary Elements 151 68-82." by running the code under the `PINN` folder. For more details, you could refer to the "README.md" file in that folder.
 
+### sample_data
+In order to find the features used by each boundary condition clearly, we derived the corresponding sampled data and clarified the data related to each feature. 
+
 ### sigma
 In order to test the performance of the PINNs model under high volatility conditions, we set the following σ values:
 <img width="700" alt="联想截图_20250424195715" src="https://github.com/user-attachments/assets/eb8d4558-ba92-4857-8cc2-df3439eda075" />  <br>
